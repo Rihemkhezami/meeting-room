@@ -1,0 +1,159 @@
+.widget {  
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgb(229, 234, 242);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;  
+     
+      .title {
+        margin-bottom: 0px;
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: rgb(148, 164, 196);
+        text-transform: none;
+        white-space: normal;
+      }
+  
+     
+  
+     
+      .widgetIcon {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left : 10px;
+        .userIcon{
+          background-color: rgba(255, 0, 0, 0.2);
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .userI{
+          color: crimson;
+          width: 1.5em;
+          height:1.5em;
+        }
+        }
+        .orderIcon{
+          background-color:#CAEBFF;
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .orderI{
+          color: #5FACD3;
+          width: 1.5em;
+          height: 1.5em;
+        }
+        }
+        .laptopIcon{
+          background-color: rgba(128, 0, 128, 0.2);
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .laptopI{
+          color: purple;
+          width:  1.5em;
+          height:  1.5em;
+        }
+        }
+        .stockIcon{
+          background-color: rgba(0, 128, 0, 0.2);
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .stockI{
+          color: green;
+          width:  1.5em;
+          height:  1.5em;
+        }
+        }
+        .termineIcon{
+          background-color: rgba(0, 128, 0, 0.2);
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .termineI{
+          color: green;
+          width:  1.5em;
+          height:  1.5em;
+        }
+        }
+        .annuleIcon{
+          background-color: rgba(255, 0, 0, 0.2);
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .annuleI{
+          color: crimson;
+          width: 1.5em;
+          height:1.5em;
+        }
+        }
+        .pendingIcon{
+          background-color: rgba(218, 165, 32, 0.2);
+          width: 60px;
+          height: 60px;
+          margin-right: 16px;
+          display: flex;
+          border-radius: 50%;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+        .pendingI{
+          color: goldenrod;
+          width: 1.5em;
+          height: 1.5em;
+        }
+        }
+      }
+    }
+  }
+  
+  

@@ -1,0 +1,23 @@
+.navCSS {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Assure que la barre de navigation est au-dessus du reste de la page */
+}
+
+.sidebarCSS {
+  position: fixed;
+  top: 60px; /* Hauteur de la barre de navigation */
+  left: 0;
+  bottom: 0;
+  width: 200px; /* Largeur de la barre latérale */
+}
+
+.pagecontainer {
+
+  margin-left: 230px; /* Largeur de la barre latérale */
+  margin-top: 70px; /* Hauteur de la barre de navigation */
+  padding: 10px;
+
+}
